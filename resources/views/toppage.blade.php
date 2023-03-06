@@ -15,7 +15,6 @@
       <div class="title">
         <a href="{{ route('top') }}">
           <p class="title">minori no gallery</p>
-
         </a>
       </div>
       <div class="hamburger">
