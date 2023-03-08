@@ -8,7 +8,7 @@ class Post extends Model
 {
     public function postdetails()
     {
-        return $this->hasMany('App\Postdetails', 'post_id', 'id');
+        return $this->hasMany('App\postdetails', 'post_id', 'id');
     }
     public function languague()
     {
