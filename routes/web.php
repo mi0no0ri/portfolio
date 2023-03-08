@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('portfolio');
-});
 Route::get('/','UsersController@top')->name('top');
 Route::get('about','UsersController@about')->name('about');
 Route::get('work','PostsController@work')->name('work');
