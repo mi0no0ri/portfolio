@@ -10,7 +10,7 @@
     <div class="introduce">
       <h2>About</h2>
       <div class="introduceContents">
-        <img src="storage/{{ $user->image }}" alt="" class="profileImage">
+        <img src="storage/{{ $user->image }}" alt="プロフィール写真" class="profileImage">
         <div class="introduceText">
           <p>NAME: <strong>{{ $user->name }}</strong></p>
           <p>{{ $user->introduce }}</p>
@@ -46,8 +46,8 @@
                   </div>
                 </div>
                 <div class="imageList">
-                  @foreach($image->postdetails as $detail)
-                    <img src="storage/{{ $detail->image }}" alt="" class="workDetailImage">
+                  @foreach($image->postdetails as $index => $detail)
+                    <img src="storage/{{ $detail->image }}" alt="作品の画像{{$index}}" class="workDetailImage">
                   @endforeach
                 </div>
               </div>
