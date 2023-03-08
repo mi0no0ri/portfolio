@@ -7,7 +7,7 @@
     <div>
       <div class="aboutContents">
         <div class="myImage">
-          <img src="/storage/{{ $user->image }}" alt="" class="aboutImage">
+          <img src="storage/{{ $user->image }}" alt="" class="aboutImage">
           <div class="aboutName">
             <h4>名前：</h4>
             <p>minori</p>

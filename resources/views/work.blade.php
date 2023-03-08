@@ -7,7 +7,7 @@
     <div class="modalList">
       @foreach($images as $index => $image)
       @if($image->count() >= 6)
-      <img src="/storage/{{ $image->photo }}" alt="" class="workImg" data-target="modal{{$index}}">
+      <img src="storage/{{ $image->photo }}" alt="" class="workImg" data-target="modal{{$index}}">
 
         <div class="modal none" id="modal{{$index}}">
           <div class="modalWrap">
@@ -22,7 +22,7 @@
               </div>
               <div class="workImages">
               @foreach($image->postdetails as $detail)
-                <img src="/storage/{{ $detail->image }}" alt="" class="workDetailImage">
+                <img src="storage/{{ $detail->image }}" alt="" class="workDetailImage">
               @endforeach
               </div>
             </div>
@@ -54,7 +54,7 @@
               </div>
               <div class="imageList">
                 @foreach($image->postdetails as $detail)
-                  <img src="/storage/{{ $detail->image }}" alt="" class="workDetailImage">
+                  <img src="storage/{{ $detail->image }}" alt="" class="workDetailImage">
                 @endforeach
               </div>
             </div>
