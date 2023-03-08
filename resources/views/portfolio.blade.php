@@ -10,7 +10,7 @@
     <div class="introduce">
       <h2>About</h2>
       <div class="introduceContents">
-        <img src="storage/{{ $user->image }}" alt="プロフィール写真" class="profileImage">
+        <img src="/storage/{{ $user->image }}" alt="プロフィール写真" class="profileImage">
         <div class="introduceText">
           <p>NAME: <strong>{{ $user->name }}</strong></p>
           <p>{{ $user->introduce }}</p>
