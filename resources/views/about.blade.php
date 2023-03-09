@@ -9,7 +9,7 @@
         <div class="myImage">
           <img src="storage/{{ $user->image }}" alt="" class="aboutImage">
           <div class="aboutName">
-            <h4>名前：</h4>
+            <h4>NAME：</h4>
             <p>minori</p>
           </div>
         </div>
