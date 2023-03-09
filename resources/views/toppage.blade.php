@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet">
   <title>minori_portfolio</title>
+  <meta name="description" content="ご覧いただきありがとうございます。minoriのポートフォリオです。">
+  <meta name="author" content="minori">
 </head>
 <body>
   <header>
