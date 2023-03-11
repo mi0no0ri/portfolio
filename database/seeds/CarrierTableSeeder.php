@@ -20,13 +20,13 @@ class CarrierTableSeeder extends Seeder
             ],
             [
                 'user_id' => '1',
-                'carrier' => '2019年4月〜2021年2月　某航空会社にてグランドスタッフとして勤務',
+                'carrier' => '2019年4月〜2022年2月　某航空会社にてグランドスタッフとして勤務',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
                 'user_id' => '1',
-                'carrier' => '2021年3月〜　某IT会社にてプログラマーとして勤務',
+                'carrier' => '2022年3月〜　某IT会社にてプログラマーとして勤務',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
