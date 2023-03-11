@@ -50,9 +50,10 @@
 
   <div class="toUp">
     <a href="#" class="toUpLink"><i class="fa-solid fa-arrow-up"></i></a>
+
   </div>
   <div class="snsIcon">
-    <a href="mailto:minori.nishizawa.0314@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <a href="{{ route('contact') }}"><i class="fa-solid fa-envelope"></i></a>
     <a href="https://www.instagram.com/minori_no_gallery/"><i class="fa-brands fa-instagram"></i></a>
     <a href="https://www.facebook.com/profile.php?id=100089800526899"><i class="fa-brands fa-facebook"></i></a>
   </div>
