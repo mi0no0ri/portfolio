@@ -50,6 +50,7 @@
 
   <div class="toUp">
     <a href="#" class="toUpLink"><i class="fa-solid fa-arrow-up"></i></a>
+
   </div>
   <div class="snsIcon">
     <a href="{{ route('contact') }}"><i class="fa-solid fa-envelope"></i></a>
