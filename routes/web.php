@@ -24,9 +24,6 @@ Route::post('contact/create','ContactsController@create')->name('contact.create'
 // メール送信(仮)
 Route::post('contact','ContactsController@send')->name('send');
 
-// ログイン
-Auth::routes();
-
 Route::middleware('auth')
   ->group(function(){
     // 投稿画面
@@ -37,4 +34,7 @@ Route::middleware('auth')
     Route::get('contactlist', 'ContactsController@contactlist')->name('contactlist');
   });
 
-Route::get('home', 'HomeController@index')->name('home');
+// ログイン
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
