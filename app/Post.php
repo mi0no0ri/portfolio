@@ -4,14 +4,25 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class postdetails extends Model
+class Post extends Model
 {
     protected $fillable = [
-        'post_id',
-        'image',
+        'id',
+        'user_id',
+        'photo',
+        'title',
+        'description',
     ];
-    public function post()
+    public function postdetails()
     {
-        return $this->belongsTo('App\Post');
+        return $this->hasMany('App\Postdetails', 'post_id', 'id');
+    }
+    public function languague()
+    {
+        return $this->hasMany('App\Languague', 'post_id', 'id');
+    }
+    public function functions()
+    {
+        return $this->hasMany('App\Functions', 'post_id', 'id');
     }
 }
