@@ -369,17 +369,19 @@ footer {
   width: 60vw;
   border-radius: 10px;
   z-index: 5;
-  top: -300px;
+  top: -400px;
   left: 0;
+  cursor: default;
+  height: auto;
 }
 .functionContents {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  height: 70vh;
+  height: 100vh;
 }
 .functionName {
-  line-height: 5px;
+  line-height: 1.5;
   width: 50%;
 }
 .functionClose {
@@ -436,6 +438,33 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 20px 40px 0;
+}
+
+/* admin */
+.adminPostList {
+  display: flex;
+  justify-content: start;
+  margin: 30px auto;
+}
+.adminPostItem {
+  width: 200px;
+}
+#description {
+  height: 100px;
+  width: 300px;
+}
+.adminPostLang {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.adminPostBtn {
+  text-align: center;
+}
+/* contact */
+.contactList {
+  width: 20%;
 }
 
 /* mobile */
@@ -574,6 +603,24 @@ footer {
   }
   .functionBtn {
     margin-right: 20px;
+  }
+  .functionModal {
+    padding: 20px;
+    width: 80vw;
+    height: 160vh;
+  }
+  .functionContents {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    line-height: 0;
+  }
+  .functionName {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .functionClose {
+    height: 10px;
+    width: 10px;
   }
   .moreLink {
     display: flex;
