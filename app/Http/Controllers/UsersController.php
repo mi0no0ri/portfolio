@@ -13,7 +13,7 @@ class UsersController extends Controller
             ->leftJoin('posts','users.id','=','posts.user_id')
             ->where('users.id',1)
             ->first();
-        $images = POST::find(1)->with(['languague', 'postdetails', 'functions'])->limit(3)->get();
+        $images = Post::find(1)->with(['languague', 'postdetails', 'functions'])->limit(3)->get();
         return view('portfolio',compact('user', 'images'));
     }
     public function about() {
